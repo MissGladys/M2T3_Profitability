@@ -1,0 +1,38 @@
+---
+title: "Blackwell Predicting Profitability"
+author: "Gladys L."
+date: "10/15/2019"
+output: html_document
+---
+
+### Report Goals
+1. Predicting sales of four different product types: PC, Laptops, Netbooks, and Smartphones  
+2. Assessing the impact services reviews and customer reviews have on sales of different product types  
+
+### Deliverable
+1. Findings on Report Goals
+2. Methods used and results of method
+3. Results exported from R for each of the methods
+
+Word or PowerPoint  
+- Algorithms tried  
+- Algorithm selected to make prediction (including rationale for selecting the method and level of confidence)  
+- Sales predictions for four target product types found in the new product attributes data set  -
+- Chart showing impact of customer and service reviews have on sales volumes  
+
+## Correlation Matrix Attributes
+Sales Volume vs Customer Review
+Sales Volume vs Service Review
+
+Negative Service Review vs Sales Volume = positive correlation
+Positive Service Review vs Sales Volume = higher positive correlation
+
+Customer Review vs Sales Volume = positive correlation
+
+ProductType.Laptop = negative correlation
+ProductType.Netbook = high negative correlation with Recommendeproduct
+ProductType.PC = positive correlation with product.width, recommendproduct, shippingweight
+ProductType.Smartphone = negative correlation
+
+## NEW INFORMATION
+**Dummify the data / dummyVars** - convert all factor or 'chr' classes to binary features
